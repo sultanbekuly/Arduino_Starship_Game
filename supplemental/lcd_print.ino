@@ -19,7 +19,7 @@ void setup()
   lcd.backlight();
   lcd.clear();
   lcd.setCursor(0,0);
-  lcd.print(" Koska ! Koska ! Koska ! Koska ! Koska ! Koska ! Koska ! Koska !");
+  lcd.print("Hello World!");
   lcd.setCursor(0,1);
   lcd.print(char(0));
   lcd.print(char(1));
